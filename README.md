@@ -1,4 +1,4 @@
-# Shake it! - Mix-a-Lot
+# The Mixx
 ## DESCRIPTION
 Set your party in autopilot with the shake it/mix app so that you can enjoy time with friends.
 The app generates cocktail recipes and 
