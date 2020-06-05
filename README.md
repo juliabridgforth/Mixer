@@ -15,24 +15,8 @@ AS A party host
 I WANT convenient access to cocktail recipes and music playlists
 SO THAT I can spend more time enjoying the party rather than running it
 
-## FRAMEWORK
-
-zurb foundation
-
-https://get.foundation/
-
-## WIREFRAMES
-
-![21 and up](./wireframes/Mixx_Mockup_4.png)
-![Selection Page](./wireframes/Mixx_Mockup_1.png)
-![Loading Page](./wireframes/Mixx_Mockup_2.png)
-![Results Page](./wireframes/Mixx_Mockup_3.png)
-
-
 ## APIS
 
-Pulling cocktail information
 https://www.thecocktaildb.com/api.php
 
-Pulling our music choices 
 https://www.mixcloud.com/developers/

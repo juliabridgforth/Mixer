@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/purple-drip-png-3-transparent.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-color: #FFA630;
+    color: #fefefe;
+    margin: auto;
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive, sans-serif, serif;
+    text-shadow: -1px 0 #F7FFF7, 0 1px #F7FFF7, 1px 0 #F7FFF7, 0 -1px #F7FFF7;
+    font-size: 80px;
+    text-transform: uppercase;
+    padding: 0px 0px 20px 0px;
+    color: #2E5077;
+    padding: 20px;
+}
+
+
+label {
+    font-family: 'Righteous', cursive, sans-serif, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #292F36;
+        align-content: center;
+        font-size: 30px;
+        line-height: 25px;
+        font-weight: 500;
+        padding: 20px 20px 30px 20px;
+}
+
+.card {
+    background-color: #D7E8BA;
+    color: #292F36;
+    margin: auto;
+    width: 100%;
+    border: 2px solid #D7E8BA;
+    border-radius: 5px;
+    box-shadow: 2px 0px #F7FFF7;
+    padding: 50px 10px;
+
+}
+
+img {
+    position: relative;
+
+}
+
+.cocktail-shaker-strainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 150px;
+    position: relative;
+}
+
+.cocktail-shaker-strainer:hover {
+    transform: rotate(-30deg);
+    transition: all .03s;
+  }
+
+  .mixx-it {
+    font-family: 'Righteous', cursive, sans-serif, serif;
+    position: relative;
+    left: 0;
+    font-size: 30px;
+    text-align: center;
+    bottom: 70px;
+    width: 100%;
+    color: #2E5077;
+    text-transform: uppercase;
+    text-shadow: -1px 0 #F7FFF7, 0 1px #F7FFF7, 1px 0 #F7FFF7, 0 -1px #F7FFF7;
+
+  }
+
+  .mixx-it:hover {
+    transform: rotate(30deg);
+    transition: all .03s;
+  }
+
+  .legal-question {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 30px;
+    background-color: #2E5077;
+    color: #F7FFF7;
+  }
+
+  .legal-statement {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 30px;
+  }
+
+
+  .image-holder {
+      padding: 20px;
+  }
