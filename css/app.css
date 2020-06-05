@@ -45,14 +45,9 @@ label {
     margin: auto;
     width: 100%;
     border: 2px solid #D7E8BA;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 2px 0px #F7FFF7;
     padding: 50px 10px;
-
-}
-
-img {
-    position: relative;
 
 }
 
@@ -114,4 +109,16 @@ img {
 
   .image-holder {
       padding: 20px;
+  }
+
+  .dropdown {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 30px;
+    background-color: #2E5077;
+    color: #F7FFF7;
   }
