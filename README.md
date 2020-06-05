@@ -18,7 +18,7 @@ https://get.foundation/
 ## WIREFRAMES
 
 ![21 and up](./wireframes/Mixx_Mockup_4.png)
-![Selection Page](./wireframes/Mixx_Mockup_1.png)
+![Selection Page](./wireframes/Mixx_Mockup-1.png)
 ![Loading Page](./wireframes/Mixx_Mockup_2.png)
 ![Results Page](./wireframes/Mixx_Mockup_3.png)
 
