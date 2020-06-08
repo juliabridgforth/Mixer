@@ -112,3 +112,4 @@ function clear() {
 agePage = document.getElementById("legal");
 optionPage = document.getElementById("mixForm");
 resultsPage = document.getElementById("results");
+
