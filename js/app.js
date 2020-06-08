@@ -13,7 +13,8 @@ $("#choiceSubmit").on("click", function () {
       results = response.drinks;
 
       //Math random for random drink to be displayed
-      var num = Math.floor(Math.random() * results.length); 
+      var num = Math.floor(Math.random() * results.length);
+
       // Store drink for second api
       var drinkId = results[num].idDrink;
 
@@ -22,6 +23,7 @@ $("#choiceSubmit").on("click", function () {
 
       // Drink Img
       $("#cocktailImg").attr("src", results[num].strDrinkThumb);
+      $("#cocktailImg").attr("style", "width:300px")
 
       // SECOND API
       queryURL2 = "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=" + drinkId;

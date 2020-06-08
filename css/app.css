@@ -1,19 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/*body {
-    background-image: url(../images/purple-drip-png-3-transparent.png);
-    background-repeat: no-repeat;
-    height: 100px;
-    background-position: center;
-    background-size: cover;
-    background-color: #FFA630;
-    color: #fefefe;
-    margin: auto;
-    padding: 40px;
-}*/
+
 
 body {
   background-repeat: no-repeat;
@@ -125,6 +116,7 @@ label {
     padding: 30px;
     background-color: #2E5077;
     color: #F7FFF7;
+
   }
 
   .animation-area {
@@ -185,4 +177,3 @@ label {
       opacity: 0;
       
     }
-  }
