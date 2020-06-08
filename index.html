@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mixx</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Righteous&family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <!-- Typography -->
+    <div class="grid-container main-container">
+        <div class="grid-x grid-margin-x align-center">
+            <div class="cell">
+                <!-- Heading -->
+                <h1 class="text-center">The Mixx</h1>
+            </div>
+            <!-- Legal Form -->
+            <div class="grid-x grid-margin-x align-center">
+                <div class="cell" style="display: incline;">
+                    <div class="card" style="width: fit-content; height: fit-content;" id="legal">
+                        <div class="card-section">
+                            <form class="21">
+                                <p class="text-center legal-question">Can you legally Mixx it?</p>
+                                <label class="text-center birthday">Enter Your Birthday</label>
+                                <input type="date" id="start" name="trip-start" value="2018-07-22" min="1920-01-01"
+                                    max="2020-12-31">
+                                <p class="legal-statement">You must be at least 21 to enter.</p>
+                                <button class="button expanded" type="submit" id="ageSubmit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="cell" id="mixForm" style="display: none;">
+                <div class="card" style="width: fit-content; height: fit-content;">
+                    <div class="card-section">
+                        <form class="21">
+                            <p class="text-center dropdown">Choose Your Mixx</p>
+                            <label class="text-center liquor">Select a Drink</label>
+                                <select id="liquorSelect">
+                                    <option id="vodka" value="vodka">Vodka</option>
+                                    <option id="gin" value="gin">Gin</option>
+                                    <option id="rum" value="rum">Rum</option>
+                                    <option id="tequila" value="tequila">Tequila</option>
+                                    <option id="whiskey" value="whiskey">Whisky</option>
+                                    <option id="brandy" value="brandy">Brandy</option>
+                                    <option id="mezcal" value="mezcal">Mezcal</option>
+                                </select>
+                                <label class="text-center liquor">Select a Playlist</label>
+                                <select>
+                                    <option id="top50" value="top50">Top 50</option>
+                                    <option id="hotCountry" value="hotCountry">Hot Country</option>
+                                    <option id="allOut" value="allOut">All Out 00's</option>
+                                    <option id="lorem" value="lorem">Lorem</option>
+                                </select>
+                            <!-- <input type="text">  -->
+                            <button id="choiceSubmit" class="button expanded" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="cell" id="results" style="display: none;">
+                <div class="card" style="width: fit-content; height: fit-content;">
+                    <div class="card-section">
+                        <p class="text-center dropdown" id="name">Your Cocktail</p>
+                        <img id="cocktailImg"/>
+                        <p id="cocktailRecipe"></p>
+                    </div>
+                </div>
+                <hr />
+                <div class="card" style="width: fit-content; height: fit-content;">
+                    <div class="card-section">
+                        <p class="text-center dropdown">Your Playlist</p>
+                        <iframe id="playlist" src="" 
+                        width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Animation -->
+    <div class="spacer"></div>
+    <div cell="medium-8">
+        <div class="image-holder">
+            <img src="./images/cocktail-shaker-strainer.png" alt="Cocktail Shaker"
+                class="center cocktail-shaker-strainer">
+            <div class="text-holder">
+                <p class="text-center mixx-it">Mixx It</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+   <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
