@@ -15,6 +15,14 @@
 
 <body>
     <!-- Typography -->
+      <div class="animation-area">
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     <div class="grid-container main-container">
         <div class="grid-x grid-margin-x align-center">
             <div class="cell">
@@ -25,6 +33,11 @@
             <div class="grid-x grid-margin-x align-center">
                 <div class="cell" style="display: incline;">
                     <div class="card" style="width: fit-content; height: fit-content;" id="legal">
+        <div class="grid-container main-container">
+            <div class="grid-x grid-margin-x align-center">
+                <div class="cell" style="display: inline;">
+                    <div class="card" style="width: fit-content; height: fit-content;">
+
                         <div class="card-section">
                             <form class="21">
                                 <p class="text-center legal-question">Can you legally Mixx it?</p>
@@ -32,13 +45,16 @@
                                 <input type="date" id="start" name="trip-start" value="2018-07-22" min="1920-01-01"
                                     max="2020-12-31">
                                 <p class="legal-statement">You must be at least 21 to enter.</p>
+
                                 <button class="button expanded" type="submit" id="ageSubmit">Submit</button>
+
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
             <div class="cell" id="mixForm" style="display: none;">
                 <div class="card" style="width: fit-content; height: fit-content;">
                     <div class="card-section">
@@ -46,6 +62,7 @@
                             <p class="text-center dropdown">Choose Your Mixx</p>
                             <label class="text-center liquor">Select a Drink</label>
                                 <select id="liquorSelect">
+
                                     <option id="vodka" value="vodka">Vodka</option>
                                     <option id="gin" value="gin">Gin</option>
                                     <option id="rum" value="rum">Rum</option>
@@ -63,6 +80,7 @@
                                 </select>
                             <!-- <input type="text">  -->
                             <button id="choiceSubmit" class="button expanded" type="submit">Submit</button>
+
                         </form>
                     </div>
                 </div>
@@ -81,10 +99,12 @@
                         <p class="text-center dropdown">Your Playlist</p>
                         <iframe id="playlist" src="" 
                         width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
+
                         </iframe>
                     </div>
                 </div>
             </div>
+
     </div>
     <!-- Animation -->
     <div class="spacer"></div>
@@ -106,6 +126,8 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+
+    </div>
 </body>
 
 </html>
