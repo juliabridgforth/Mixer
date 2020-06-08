@@ -1,3 +1,4 @@
+
 // Cocktail Search by Liquor function
 $("#choiceSubmit").on("click", function () {
   event.preventDefault();
