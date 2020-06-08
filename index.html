@@ -25,23 +25,20 @@
         </ul>
         <div class="grid-container main-container">
             <div class="grid-x grid-margin-x align-center">
-                <div class="cell">
-                    <!-- Heading -->
-                    <h1 class="text-center">The Mixx</h1>
-                </div>
-                <!-- Legal Form -->
-                <div class="grid-x grid-margin-x align-center">
-                    <div class="cell" style="display: incline;">
-                        <div class="card" style="width: fit-content; height: fit-content;">
-                            <div class="card-section">
-                                <form class="21">
-                                    <p class="text-center legal-question">Can you legally Mixx it?</p>
-                                    <label class="start text-center birthday">Enter Your Birthday</label>
-                                    <input type="date" id="start" name="trip-start" value="2020-07-22" min="1910-01-01"
-                                        max="2018-12-31">
-                                    <p class="legal-statement">You must be at least 21 to enter.</p>
-                                </form>
-                            </div>
+                <div class="cell" style="display: inline;">
+                    <div class="card" style="width: fit-content; height: fit-content;">
+
+                        <div class="card-section">
+                            <form class="21">
+                                <p class="text-center legal-question">Can you legally Mixx it?</p>
+                                <label class="text-center birthday">Enter Your Birthday</label>
+                                <input type="date" id="start" name="trip-start" value="2018-07-22" min="1920-01-01"
+                                    max="2020-12-31">
+                                <p class="legal-statement">You must be at least 21 to enter.</p>
+
+                                <button class="button expanded" type="submit" id="ageSubmit">Submit</button>
+
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -52,24 +49,30 @@
                         <form class="21">
                             <p class="text-center dropdown">Choose Your Mixx</p>
                             <label class="text-center liquor">Select a Drink</label>
-                            <select>
-                                <option id="vodka" value="vodka">Vodka</option>
-                                <option id="gin" value="gin">Gin</option>
-                                <option id="rum" value="rum">Rum</option>
-                                <option id="tequila" value="tequila">Tequila</option>
-                                <option id="whiskey" value="whiskey">Whisky</option>
-                                <option id="brandy" value="brandy">Brandy</option>
-                                <option id="mezcal" value="mezcal">Mezcal</option>
-                            </select>
-                            <label class="text-center liquor">Select a Playlist</label>
-                            <select>
-                                <option id="top50" value="top50">Top 50</option>
-                                <option id="hotCountry" value="hotCountry">Hot Country</option>
-                                <option id="allOut" value="allOut">All Out 00's</option>
-                                <option id="lorem" value="lorem">Lorem</option>
-                            </select>
+
+
+                                <select id="liquorSelect">
+
+                                    <option id="vodka" value="vodka">Vodka</option>
+                                    <option id="gin" value="gin">Gin</option>
+                                    <option id="rum" value="rum">Rum</option>
+                                    <option id="tequila" value="tequila">Tequila</option>
+                                    <option id="whiskey" value="whiskey">Whisky</option>
+                                    <option id="brandy" value="brandy">Brandy</option>
+                                    <option id="mezcal" value="mezcal">Mezcal</option>
+                                </select>
+                                <label class="text-center liquor">Select a Playlist</label>
+                                <select>
+                                    <option id="top50" value="top50">Top 50</option>
+                                    <option id="hotCountry" value="hotCountry">Hot Country</option>
+                                    <option id="allOut" value="allOut">All Out 00's</option>
+                                    <option id="lorem" value="lorem">Lorem</option>
+                                </select>
+
                             <!-- <input type="text">  -->
-                            <button class="button expanded" type="submit">Submit</button>
+
+                            <button id="choiceSubmit" class="button expanded" type="submit">Submit</button>
+
                         </form>
                     </div>
                 </div>
@@ -77,8 +80,10 @@
             <div class="cell" id="results" style="display: none;">
                 <div class="card" style="width: fit-content; height: fit-content;">
                     <div class="card-section">
-                        <p class="text-center dropdown">Your Cocktail</p>
-                        <img id="cocktailImg" src="" />
+
+                        <p class="text-center dropdown" id="name">Your Cocktail</p>
+                        <img id="cocktailImg"/>
+
                         <p id="cocktailRecipe"></p>
                     </div>
                 </div>
@@ -106,8 +111,8 @@
         </div>
     </div>
 
-
-
+   <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
